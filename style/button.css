@@ -1,0 +1,59 @@
+.button_primary {
+    border: none;
+    background: transparent;
+    font-family: GoogleSansM, sans-serif;
+    font-size: 17px;
+    color: #212832;
+    cursor: pointer;
+}
+
+.button_primary:hover {
+    color: #585858;
+}
+
+.button_secondary {
+    background: transparent;
+    border-radius: 5px;
+    border-color: #212832;
+    font-family: GoogleSansM, sans-serif;
+    font-size: 17px;
+    padding: 9px 21px;
+    color: #212832;
+    cursor: pointer;
+}
+
+.button_secondary:hover {
+    color: #585858;
+    border-color: #585858;
+}
+
+.button_head_find {
+    background: #F1A501;
+    color: #fff;
+    font-family: GoogleSansM, sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 19px 27px;
+    box-shadow: 0px 20px 35px #F1A50126;
+    cursor: pointer;
+}
+
+.button_head_find:hover {
+    background: #ffb412;
+}
+
+.subscribe_button {
+    width: 180px;
+    height: 68px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(#FF946D, #FF7D68);
+    color: #fff;
+    font-family: OpenSansSB, sans-serif;
+    font-size: 17px;
+}
+
+.subscribe_button:hover {
+    background: linear-gradient(#FF7D68, #fc6953);
+}

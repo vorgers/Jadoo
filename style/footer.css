@@ -1,0 +1,102 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 187px;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    width: 207px;
+    height: 133px;
+    margin-right: 83px;
+    margin-top: -136px;
+}
+
+.company > h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 44px;
+    color: #181E4B;
+    margin-bottom: 19px;
+}
+
+.company > p {
+    margin: 0;
+    font-family: PoppinsM, sans-serif;
+    font-size: 13px;
+    color: #5E6282;
+    width: 207px;
+}
+
+.list {
+    display: flex;
+}
+
+.list > ul {
+    margin-right: 72px;
+}
+
+.list > ul:last-child {
+    margin-right: 82px;
+}
+
+.list > ul > li {
+    font-family: PoppinsM, sans-serif;
+    font-size: 18px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.list > ul > li > a {
+    text-decoration: none;
+    color: #5E6282;
+}
+
+.list > ul > li > a:hover {
+    color: #2d2f3f;
+}
+
+.list > ul > li:first-child {
+    color: #080809;
+    font-family: PoppinsB, sans-serif;
+    font-size: 21px;
+    margin-bottom: 34px;
+}
+
+.social > h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 20px;
+    color: #5E6282;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.discover {
+    margin-left: -10px;
+}
+
+.app > img:first-child {
+    margin-right: 7px;
+}
+
+.text_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.text_footer > h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 14px;
+    color: #5E6282;
+    margin-top: 84px;
+}
+
+.text_footer > h1 > a {
+    text-decoration: none;
+    color: #5E6282;
+}
+
+.text_footer > h1 > a:hover {
+    color: #2d2f3f;
+}

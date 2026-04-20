@@ -1,0 +1,39 @@
+@font-face {
+    font-family: GoogleSansM;
+    src: url(/fonts/GoogleSansCode-Medium.ttf);
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsM;
+    src: url(/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: PoppinsSB;
+    src: url(/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsR;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: VolkhovB;
+    src: url(/fonts/Volkhov-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSansSB;
+    src: url(/fonts/OpenSans_Condensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: MontserratR;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}

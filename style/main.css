@@ -1,0 +1,589 @@
+/* Category */
+
+.category {
+    margin-top: 97px;
+}
+
+.main_subtitle {
+    color: #5E6282;
+    padding: 0;
+    margin: 0;
+    font-family: PoppinsSB, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main_title {
+    color: #14183E;
+    font-family: VolkhovB, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+#title_category {
+    margin-top: 10px;
+    margin-bottom: 68px;
+    margin-right: 254px;
+    margin-left: 424px;
+}
+
+.title_with_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+}
+
+.main_card:first-child {
+    width: 190px;
+}
+
+.card_title {
+    font-family: OpenSansSB, sans-serif;
+    font-size: 20px;
+    color: #1E1D4C;
+    margin: 0;
+}
+
+.card_subtitle {
+    font-family: PoppinsM, sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.second_img {
+    position: absolute;
+    left: -50px;
+    bottom: -132px;
+}
+
+#first_card {
+    width: 190px;
+    height: 227px;
+    margin-right: 73px;
+}
+
+#first_card > h1 {
+    margin-top: 29px;
+}
+
+#second_card > h1 {
+    margin-top: 0;
+}
+
+#second_card {
+    width: 267px;
+    border-radius: 36px;
+    position: relative;
+    box-shadow: 0px 10px 20px #0000000D;
+    margin-right: 79px;
+}
+
+#third_card {
+    width: 181px;
+    height: 229px;
+    margin-right: 118px;
+}
+
+#third_card > h1 {
+    margin-top: 34px;
+}
+
+#fourth_card > h1 {
+    margin-top: 30px;
+}
+
+/* Destination */
+
+.destination_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination_card {
+    position: relative;
+    width: 315px;
+    height: 457px;
+    margin-right: 100px;
+}
+
+#subtitle_destination {
+    margin-top: 156px;
+    margin-bottom: 8px;
+}
+
+#title_destination {
+    margin-bottom: 60px;
+}
+
+.destination_info {
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 24px 24px;
+    width: 315px;
+    height: 130px;
+    bottom: -2px;
+    left: 80px;
+}
+
+.destination_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination_price h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 18px;
+    color: #5E6282;
+    margin-top: 27px;
+    margin-bottom: 19px;
+}
+
+.destination_price h1:first-child {
+    margin-left: 20px;
+    margin-right: 103px;
+}
+
+.destination_price h1:last-child {
+    margin-right: 25px;
+}
+
+.destination_nav {
+    display: flex;
+    align-items: center;
+}
+
+.destination_nav h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    margin-left: 14px;
+}
+
+.destination_nav img {
+    margin-left: 20px;
+}
+
+.third_card {
+    position: absolute;
+    right: -60px;
+    bottom: 40px;
+    z-index: -1;
+}
+
+/* Book */
+
+.book {
+    display: flex;
+    flex-direction: column;
+    margin-left: 421px;
+}
+
+.card_row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.card_row:last-child {
+    margin: 0;
+}
+
+.card_row > div > h1 {
+    margin: 0;
+    color: #5E6282;
+    font-family: PoppinsB, sans-serif;
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-left: 21px;
+}
+
+.card_row > div > h2 {
+    margin: 0;
+    color: #5E6282;
+    font-family: PoppinsR, sans-serif;
+    font-size: 16px;
+    margin-left: 21px;
+    width: 327px;
+}
+
+#book_subtitle {
+    text-align: start;
+    margin-top: 186px;
+    margin-bottom: 15px;
+}
+
+#book_title {
+    text-align: start;
+    margin-bottom: 31px;
+    width: 511px;
+}
+
+.book_card {
+    display: flex;
+}
+
+.greece {
+    position: relative;
+    margin-left: 234px;
+    margin-top: 264px;
+    background: #fff;
+}
+
+.greece_card {
+    width: 370px;
+    height: 425px;
+    border-radius: 26px;
+    box-shadow: 0px 10px 20px #0000000D;
+}
+
+.greece_card > img {
+    width: 321px;
+    height: 161px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 24px;
+}
+
+
+.greece_text {
+    font-family: PoppinsM, sans-serif;
+    font-size: 18px;
+    color: #080809;
+    margin-top: 26px;
+    margin-left: 25px;
+    margin-bottom: 14px;
+}
+
+.greece_date {
+    display: flex;
+    align-items: center;
+}
+
+.greece_date p {
+    margin: 0;
+    font-family: PoppinsM, sans-serif;
+    font-size: 16px;
+    color: #84829A;
+    margin-left: 25px;
+    margin-bottom: 21px;
+}
+
+.greece_icon img {
+    margin-left: 28px;
+    margin-bottom: 29px;
+}
+
+.greece_footer {
+    display: flex;
+    align-items: center;
+}
+
+.greece_footer img:first-child {
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.greece_footer img:last-child {
+    margin-left: 143px;
+}
+
+.greece_footer p {
+    margin: 0;
+    margin-top: 5px;
+    font-family: PoppinsM, sans-serif;
+    font-size: 16px;
+    color: #84829A;
+}
+
+.rome_card {
+    position: absolute;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px #0000000D;
+    width: 263px;
+    height: 142px;
+    top: 219px;
+    right: -115px;
+}
+
+.rome_name {
+    display: flex;
+
+}
+
+.rome_name img {
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.rome_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rome_text p {
+    font-family: PoppinsM, sans-serif;
+    font-size: 14px;
+    color: #84829A;
+    margin: 0;
+    margin-left: 12px;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.rome_text h1 {
+    color: #080809;
+    font-family: PoppinsM, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-left: 11px;
+}
+
+.complete > h1 {
+    font-family: PoppinsM, sans-serif;
+    font-size: 14px;
+    margin-left: 80px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.complete > img {
+    margin-left: 82px;
+    margin-bottom: 22px;
+}
+
+.text_purp {
+    color: #8A79DF;
+}
+
+.shadow_blue {
+    position: absolute;
+    top: -310px;
+    left: -200px;
+    z-index: -1;
+}
+
+.shadow_blue img {
+    width: 450px;
+    height: 450px;
+}
+
+/* Testimonials */
+
+.comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.right_card {
+    margin-left: 124px;
+    margin-top: 200px;
+}
+
+.testimonials p {
+    margin: 0;
+    font-family: PoppinsSB, sans-serif;
+    font-size: 18px;
+    color: #5E6282;
+    margin-top: 209px;
+}
+
+.testimonials h1 {
+    font-family: VolkhovB, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 82px;
+    width: 409px;
+}
+
+.testimonials img {
+    margin-right: 26px;
+}
+
+.testimonials img:last-child {
+    margin-right: 0;
+}
+
+.front_card {
+    position: relative;
+    width: 504px;
+    height: 195px;
+    background: #fff;
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 10px;
+}
+
+.front_card p:first-child {
+    font-family: PoppinsM, sans-serif;
+    font-size: 16px;
+    color: #5E6282;
+    margin-top: 28px;
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+
+.front_card h1 {
+    font-family: PoppinsSB, sans-serif;
+    font-size: 18px;
+    color: #5E6282;
+    margin-bottom: 5px;
+    margin-left: 34px;
+}
+
+#second_p {
+    font-family: PoppinsM, sans-serif;
+    font-size: 14px;
+    color: #5E6282;
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+
+.testimonials_image {
+    position: absolute;
+    top: -64px;
+    left: -37px;
+}
+
+.behind_card {
+    position: absolute;
+    width: 502px;
+    height: 232px;
+    background: #F7F7F7;
+    right: -48px;
+    bottom: -97px;
+    z-index: -1;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #0000000D;
+}
+
+#first_p {
+    width: 402px;
+}
+
+.testimonials_arrows {
+    display: flex;
+    flex-direction: column;
+    width: 14px;
+    height: 7px;
+    justify-content: end;
+    margin-left: 627px;
+}
+
+.testimonials_arrows img:first-child {
+    margin-bottom: 58px;
+}
+
+/* Logos */
+
+.logos {
+    display: flex;
+    margin-top: 173px;
+    align-items: center;
+}
+
+#first_logo {
+    margin-left: 445px;
+    margin-right: 77px;
+}
+
+#second_logo {
+    margin-right: 50px;
+}
+
+#third_logo {
+    margin-right: 47px;
+    width: 241px;
+    height: 86px;
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#third_logo > img {
+    margin-top: -40px;
+}
+
+#fourth_logo {
+    margin-right: 99px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    position: relative;
+    margin-left: 290px;
+    margin-top: 124px;
+}
+
+.subscribe_main > h1 {
+    font-family: PoppinsSB, sans-serif;
+    font-size: 33px;
+    color: #5E6282;
+    text-align: center;
+    width: 859px;
+    height: 108px;
+    margin-top: 79px;
+    margin-bottom: 74px;
+}
+
+.subscribe_main {
+    position: absolute;
+    top: 0;
+    right: 30%;
+}
+
+input {
+    width: 421px;
+    height: 68px;
+    background-color: #fff;
+    background-image: url('/image_main/Group\ 46.png');
+    background-repeat: no-repeat;
+    background-position: 31px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 110px;
+    margin-right: 24px;
+}
+
+input::placeholder {
+    padding-left: 66px;
+    font-family: MontserratR, sans-serif;
+    font-size: 14px;
+    color: #39425D;
+}
+
+.subscribe_send {
+    position: absolute;
+    top: -20px;
+    right: 320px;
+}
+
+.subscribe_plus {
+    position: absolute;
+    bottom: -70px;
+    right: 240px;
+}
